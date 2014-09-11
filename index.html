@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h3> MAS.863: How To Make (Almost) Anything </h3>
+<div class="row">
+  <div class="tile-bucket col-sm-12">
+    {% for post in site.posts %}
+    <a class="tile-link" href="{{ post.url | prepend: site.baseurl }}">
+      <span class="tile-container">
+        <img id="{{ post.title | split:": " | first | split: " " | last }}-img" class="tile" src="">
+        <div id="{{ post.title | split:": " | first | split: " " | last }}-text" class="color-filter tile-text"> 
+          <span class="tile-para">{{ post.title }}</span>
+        </div>
+      </span>
+    </a>
+    {% endfor %}
+
+  </div>
+</div>
