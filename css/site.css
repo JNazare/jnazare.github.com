@@ -7,10 +7,12 @@ body{
 
 a {
   text-decoration: none;
+  color: #912CEE;
 }
 
 a:hover{
   text-decoration: none;
+  color: #838483;
 }
 
 h3{
@@ -99,7 +101,7 @@ h3{
 }
 
 .sidebar ul li a:hover{
-  color: black;
+  color: #912CEE;
 }
 
 .content{

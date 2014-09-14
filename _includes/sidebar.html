@@ -12,7 +12,7 @@
 			Resume: <a href="https://www.dropbox.com/s/qgknbcjd1qqxbuw/resume.pdf?dl=0">View / Download</a>
 		</span>
 	</div>
-	<hr>
+	<br>
 	<ul class="project-links">
 	{% for post in site.posts %}
 	    <li class="project-link"><a class="post-link" href="{{ post.url | remove_first: "/" }}">{{ post.title | split:":" | last | split: " - " | first}}</a></li>
