@@ -165,3 +165,16 @@ h3{
 .contact-card a:hover{
   color: #838483;
 }
+
+ul{
+  border-bottom: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7;
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ul li{
+  font-weight: bold;
+}
