@@ -3,6 +3,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    
     {% if page.url == "/index.html" %}
 	    <script type="text/javascript">
 	    	function urlExists(testUrl) {
@@ -18,8 +19,8 @@
 	    	{% for post in site.posts %}
 	    		var proj_num = "{{ post.title | split:": " | first | split: " " | last }}";
 	    		var proj_id = "#"+proj_num
-	    		var proj_img_url = "{{site.baseurl}}" + "/images/" + proj_num + ".jpg";
-	    		var blank_img_url = "{{site.baseurl}}/images/blank.jpg";
+	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		var blank_img_url = "images/blank.jpg";
 				// $(proj_id+'-img').error(function(){
 				//     $(proj_id+'-img').attr("src", blank_img_url);
 				//   }).attr("src", proj_img_url);
@@ -38,4 +39,5 @@
 
 	    </script>
     {% endif %}
+    
 </footer>

@@ -1,7 +1,21 @@
 <div class="col-sm-3 hidden-xs sidebar">
-  <ul class="project-links">
-    {% for post in site.posts %}
-        <li class="project-link"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | split:":" | last }}</a></li>
-    {% endfor %}
-  </ul>
+	<div class="contact-card">
+		<img src="/images/headshot.jpg" width="100%">
+		<br><br>
+		<span>
+			Twitter: <a href="http://twitter.com/juliananazare"> @JulianaNazare </a>
+			<br>
+			Github: <a href="http://github.com/jnazare"> JNazare </a>
+			<br>
+			Email: <a href="mailto:jules.nazare@gmail.com"> Jules.Nazare@gmail.com </a>
+			<br>
+			Resume: <a href="https://www.dropbox.com/s/qgknbcjd1qqxbuw/resume.pdf?dl=0">View / Download</a>
+		</span>
+	</div>
+	<hr>
+	<ul class="project-links">
+	{% for post in site.posts %}
+	    <li class="project-link"><a class="post-link" href="{{ post.url | remove_first: "/" }}">{{ post.title | split:":" | last | split: " - " | first}}</a></li>
+	{% endfor %}
+	</ul>
 </div>

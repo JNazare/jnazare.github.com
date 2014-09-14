@@ -2,15 +2,21 @@
 layout: default
 ---
 
-<h3> MAS.863: How To Make (Almost) Anything </h3>
+<h3> About </h3>
+<p> 
+I am a graduate student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelong Kindergarten Group</a> and an alum of <a href="http://olin.edu">Olin College of Engineering</a>. Previously, I worked part-time at MIT Lincoln Labs in the <a href="http://www.ll.mit.edu/mission/cybersec/HLT/HLT.html">Human Language Technology Group</a> and was a Technical Associate at <a href="http://startupinstitute.com">Startup Institute Boston</a>. Before moving to Boston, I had lived my entire life in Reston, Virginia, one of the first socially-engineered towns in the US, and spent (almost) all my time on the soccer field. 
+<br><br>I am interested in using natural language processing and computer science to build educational experiences that help people learn about themselves, their communities, and the world around them.
+</p>
+
+<h3> Selected Projects </h3>
 <div class="row">
   <div class="tile-bucket col-sm-12">
     {% for post in site.posts %}
-    <a class="tile-link" href="{{ post.url | prepend: site.baseurl }}">
+    <a class="tile-link" href="{{ post.url | remove_first: "/"  }}">
       <span class="tile-container">
         <img id="{{ post.title | split:": " | first | split: " " | last }}-img" class="tile" src="">
         <div id="{{ post.title | split:": " | first | split: " " | last }}-text" class="color-filter tile-text"> 
-          <span class="tile-para">{{ post.title }}</span>
+          <span class="tile-para">{{ post.title | split: ":"| last }}</span>
         </div>
       </span>
     </a>
