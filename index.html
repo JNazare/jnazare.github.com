@@ -15,9 +15,9 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
     <a class="tile-link" href="{{ post.url | remove_first: "/"  }}">
       <span class="tile-container">
         <img id="{{ post.title | split:": " | first | split: " " | last }}-img" class="tile" src="">
-        <div id="{{ post.title | split:": " | first | split: " " | last }}-text" class="color-filter tile-text"> 
+        <!-- <div id="{{ post.title | split:": " | first | split: " " | last }}-text" class="color-filter tile-text"> 
           <span class="tile-para">{{ post.title | split: ":"| last }}</span>
-        </div>
+        </div> -->
       </span>
     </a>
     {% endfor %}
