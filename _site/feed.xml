@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 01 Feb 2015 10:48:49 -0500</pubDate>
-    <lastBuildDate>Sun, 01 Feb 2015 10:48:49 -0500</lastBuildDate>
+    <pubDate>Sun, 01 Feb 2015 10:52:11 -0500</pubDate>
+    <lastBuildDate>Sun, 01 Feb 2015 10:52:11 -0500</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -39,7 +39,7 @@
     
       <item>
         <title>10: @IntroduceMeTo - An NLP enabled Twitter bot</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/projects/introducemeto.jpg&quot; width=&quot;100%&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;images/projects/introducemeto.jpg&quot; width=&quot;100%&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;@IntroduceMeTo is a half-semester project that employed data mining, parsing, natural language processing, and remote API integration to make a bot that brings professional introductions, usually made on LinkedIn (a professional social network), to Twitter, (a unidirectional communication network), where interacting with complete strangers is acceptable.&lt;/p&gt;
 
@@ -63,7 +63,7 @@
     
       <item>
         <title>9: The Lexicon of the Inaugural Speeches</title>
-        <description>&lt;center&gt;&lt;img src=&quot;/images/projects/inagural-speeches.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
+        <description>&lt;center&gt;&lt;img src=&quot;images/projects/inagural-speeches.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;I wanted to investigate if the lexicon of a president’s inaugural speech is related to president’s political party affiliation or the date of the speech. I used natural language processing and data visualization techniques to visualize the 700 top “buzzwords” in the inaugural speech corpus. I then used how often each president brought up these buzzwords in their speeches to create a graph of all the inaugural speeches. &lt;/p&gt;
@@ -83,7 +83,7 @@
     
       <item>
         <title>8: Robotic Crab Toy - Walking crab toy for 4th graders</title>
-        <description>&lt;center&gt;&lt;img src=&quot;/images/projects/crab.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
+        <description>&lt;center&gt;&lt;img src=&quot;images/projects/crab.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;For our Design Nature course, I worked on of team of four to create a walking crab toy. This project was my first exposure to User-Oriented Design, the process by which you design a product for a specific user group - in our case, fourth grade students. We learned about incremental design during the course of this project. First, we created sketch models, then a working proof of concept, then the initial prototype, and finally constructed a final product and demoed it live to a forth grade audience (who graded us).&lt;/p&gt;
@@ -103,7 +103,7 @@
     
       <item>
         <title>7: Turntube.TV - Collaborative Youtube watching</title>
-        <description>&lt;center&gt;&lt;img src=&quot;/images/projects/turntubetv.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
+        <description>&lt;center&gt;&lt;img src=&quot;images/projects/turntubetv.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;About 72 hours of video are uploaded to Youtube every minute. Youtube gets more than 1 billion unique visits each month. Youtube due to its vast scale is responsible for channeling creative communities to their desired audiences. However, with such a vast scale, opinions, thoughts, and desires then to get lost in the midst of the mass data stream.&lt;/p&gt;
@@ -131,7 +131,7 @@
   &lt;li&gt;&lt;a href=&quot;http://thank-a-teacher.org&quot;&gt;Check out http://thank-a-teacher.org&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;center&gt;&lt;img src=&quot;/images/projects/thankateacherposter.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;images/projects/thankateacherposter.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
 </description>
         <pubDate>Mon, 06 Jan 2014 00:00:00 -0500</pubDate>
         <link>http://yourdomain.com/Project6.html</link>
@@ -162,7 +162,7 @@
     
       <item>
         <title>4: Spatial Music Map - A way to explore your music spatially</title>
-        <description>&lt;center&gt;&lt;img src=&quot;/images/projects/musicmap.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
+        <description>&lt;center&gt;&lt;img src=&quot;images/projects/musicmap.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt; &lt;/p&gt;
 
 &lt;p&gt;We spent 24 hours (straight) creating a way for users to spatially create radio stations, a method of music discovery not currently employed by popular music streamers such as Rdio and Spotify. This project was my first introduction to Node.Js as well as to using big web APIs such as the EchoNest API and Rdio player.&lt;/p&gt;
@@ -185,7 +185,7 @@
     
       <item>
         <title>3: Curriculum Github - Verison control for curriculum</title>
-        <description>&lt;center&gt;&lt;img src=&quot;/images/projects/curriculum.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
+        <description>&lt;center&gt;&lt;img src=&quot;images/projects/curriculum.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt; &lt;/p&gt;
 
 &lt;p&gt;For about a year, I worked a project nicknamed “Github for Curriculum,” a web application that uses the power of Github’s version control in a simple-to-use web application for people that do not use Github. This is a project that I worked on for Startup Institute, a education company that runs schools in New York, Chicago, and Boston.&lt;/p&gt;
