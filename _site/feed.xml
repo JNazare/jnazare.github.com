@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 25 Dec 2014 02:54:39 -0500</pubDate>
+    <lastBuildDate>Thu, 25 Dec 2014 02:54:39 -0500</lastBuildDate>
+    <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>12: Making / Learning / Work</title>
+        <description>&lt;p&gt;This is the research that I am currently working on at the Media Lab. Check out our website &lt;a href=&quot;http://learn.media.mit.edu/mlw/&quot;&gt;http://learn.media.mit.edu/mlw/&lt;/a&gt; for information, prototypes, and updates.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 03 Feb 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/Project12.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/Project12.html</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>11: How To Make (Almost) Anything</title>
+        <description>&lt;p&gt;A new project every week. Check out &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.14/people/juliana_nazare/index.html&quot;&gt;my “How To Make” page&lt;/a&gt; for more (:&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Feb 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/Project11.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/Project11.html</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>10: @IntroduceMeTo - An NLP enabled Twitter bot</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/projects/introducemeto.jpg&quot; width=&quot;100%&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;@IntroduceMeTo is a half-semester project that employed data mining, parsing, natural language processing, and remote API integration to make a bot that brings professional introductions, usually made on LinkedIn (a professional social network), to Twitter, (a unidirectional communication network), where interacting with complete strangers is acceptable.&lt;/p&gt;
+
+&lt;p&gt;Specifically, I worked on the backend of @IntroduceMeTo, developing the NLP algorithms that matched inputted tweets with LinkedIn profiles and returning this to the user. This involved filtering both tweet content and text from LinkedIn profiles and creating and implementing a ranking system for LinkedIn profile content.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;See the in-depth description on &lt;a href=&quot;http://olinprojects.com/projects/5189c162e885afce55818c43&quot;&gt;OlinProjects.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;View the &lt;a href=&quot;https://github.com/JNazare/IntroduceMeTo&quot;&gt;code on Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Teammates: &lt;a href=&quot;http://twitter.com/timcameronryan&quot;&gt;Tim Ryan&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Feb 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/Project10.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/Project10.html</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>9: The Lexicon of the Inaugural Speeches</title>
+        <description>&lt;center&gt;&lt;img src=&quot;/images/projects/inagural-speeches.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I wanted to investigate if the lexicon of a president’s inaugural speech is related to president’s political party affiliation or the date of the speech. I used natural language processing and data visualization techniques to visualize the 700 top “buzzwords” in the inaugural speech corpus. I then used how often each president brought up these buzzwords in their speeches to create a graph of all the inaugural speeches. &lt;/p&gt;
+
+&lt;p&gt;I compared these graphs to the data on when the speech was given and the political party that the speaker was affiliated with. I found that the buzzwords used in a given inaugural speech closely align with the date of the speech. For example, buzzwords like “militia” and “tariff” are commonplace for our founding fathers to use, while words such as “communism” and “Cuba” are buzzwords relating to 20th century politics. &lt;/p&gt;
+
+&lt;p&gt;The buzzwords I found encapsulate both words relevant to current events, such as “Cuba” and “Communism,” and also variations in the English language, such as the previously popular word “whilst”. It remains to be investigated if the inaugural speeches can be better differentiated based on words pertaining to current events or words based on the evolution of American English. This is something that I would like to look into, creating a more intuitive and interactive visualization of the inaugural speeches.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Jan 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/Project9.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/Project9.html</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>8: Robotic Crab Toy - Walking crab toy for 4th graders</title>
+        <description>&lt;center&gt;&lt;img src=&quot;/images/projects/crab.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For our Design Nature course, I worked on of team of four to create a walking crab toy. This project was my first exposure to User-Oriented Design, the process by which you design a product for a specific user group - in our case, fourth grade students. We learned about incremental design during the course of this project. First, we created sketch models, then a working proof of concept, then the initial prototype, and finally constructed a final product and demoed it live to a forth grade audience (who graded us).&lt;/p&gt;
+
+&lt;p&gt;This was a project where all four teammates were involved in every step of the project. With my teammates, I worked on how to make a robotic crab toy targeted to fourth grade users, the initial drawings of how the crab would function, CAD, and the implementation of the design.&lt;/p&gt;
+
+&lt;p&gt;Teammates: Charlie Behling, Carl Bailey, Matt Reiley&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Jan 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/Project8.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/Project8.html</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>7: Turntube.TV - Collaborative Youtube watching</title>
+        <description>&lt;center&gt;&lt;img src=&quot;/images/projects/turntubetv.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;About 72 hours of video are uploaded to Youtube every minute. Youtube gets more than 1 billion unique visits each month. Youtube due to its vast scale is responsible for channeling creative communities to their desired audiences. However, with such a vast scale, opinions, thoughts, and desires then to get lost in the midst of the mass data stream.&lt;/p&gt;
+
+&lt;p&gt;Turntube solves this problem by creating small theme based video rooms where a small number of viewers share videos and interact with each other while enjoying awesome videos. This helps both the content creators as well as Youtube to understand what the viewers real opinions are. It also a place for crowd sourcing categorization as users pick videos for each theme.&lt;/p&gt;
+
+&lt;p&gt;I worked mostly on the front end for this project, striving to design an interface that could fit multiple videos, a chat window, and user information in an easy-to-understand manner. I was in charge of designing this interface, implementing it, and hooking it up to the backend that my teammates constructed.&lt;/p&gt;
+
+&lt;p&gt;Teammates: &lt;a href=&quot;http://twitter/com/reyner&quot;&gt;Reyner Crosby&lt;/a&gt; and &lt;a href=&quot;http://twitter/com/amankapur91&quot;&gt;Aman Kapur&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Jan 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/Project7.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/Project7.html</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>6: Thank-A-Teacher - Crowdsourcing teacher thank-you notes</title>
+        <description>&lt;p&gt;As part of a 6-person team, I worked on creating Thank-A-Teacher.org, a webapp that allowed people all over the US to look up their school and send a thank you note to their past or present teachers. The inspiration for this idea came as part of our senior capstone project at Olin College, where we were working with Ted Dintersmith and Tony Wagner on their initiative to change K-12 education in the US, and we dedicated the last 3 months of our capstone project to pursuing this idea.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thank-a-teacher.org&quot;&gt;Check out http://thank-a-teacher.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;&lt;img src=&quot;/images/projects/thankateacherposter.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
+</description>
+        <pubDate>Mon, 06 Jan 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/Project6.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/Project6.html</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>5: Fountain Audio Visualizer - A water fountain that dances to music</title>
+        <description>&lt;center&gt;&lt;iframe src=&quot;http://player.vimeo.com/video/33700261&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For our Principles of Engineering Project, I worked on a small team to create a fountain that dances to music. I had two roles on the team. I was in charge of writing the Arduino code that interfaced with the Python GUI and the electrical system and I wrote the Python code that parsed through a media file, using an FFT to find the relative powers of each frequency range present, and then convert these powers to PWM signals to send over a serial to the Arduino.&lt;/p&gt;
+
+&lt;p&gt;Teammates: Arjun Aletty, Eerik Helmick, Chris Mark&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Jan 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/Project5.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/Project5.html</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>4: Spatial Music Map - A way to explore your music spatially</title>
+        <description>&lt;center&gt;&lt;img src=&quot;/images/projects/musicmap.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+
+&lt;p&gt;We spent 24 hours (straight) creating a way for users to spatially create radio stations, a method of music discovery not currently employed by popular music streamers such as Rdio and Spotify. This project was my first introduction to Node.Js as well as to using big web APIs such as the EchoNest API and Rdio player.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2nd Place, Crowd Favorite, and Best UI at HackMIT (February 2013)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://themusicmap.herokuapp.com/&quot;&gt;View the live site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Teammates: &lt;a href=&quot;http://twitter.com/bobbins&quot;&gt;Rachel Bobbins&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/geoffpleiss&quot;&gt;Geoff Pleiss&lt;/a&gt;, and &lt;a href=&quot;http://twitter.com/timcameronryan&quot;&gt;Tim Ryan&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Jan 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/Project4.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/Project4.html</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>3: Curriculum Github - Verison control for curriculum</title>
+        <description>&lt;center&gt;&lt;img src=&quot;/images/projects/curriculum.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+
+&lt;p&gt;For about a year, I worked a project nicknamed “Github for Curriculum,” a web application that uses the power of Github’s version control in a simple-to-use web application for people that do not use Github. This is a project that I worked on for Startup Institute, a education company that runs schools in New York, Chicago, and Boston.&lt;/p&gt;
+
+&lt;p&gt;The idea for the project stemmed from a problem that the company faced when revising Startup Institute’s curriculum, which is routinely taught by 100 instructors across 3 cities. We decided that the first step to having a manageable curriculum was to be able to track the revisions being made to the curriculum by each of the instructors.&lt;/p&gt;
+
+&lt;p&gt;After looking into spinning up our own Gitorious server, I decided to use Github itself as our version-controlled backend and built a web application that allowed non-technical instructors to interface with our curriculum on Github.&lt;/p&gt;
+
+&lt;p&gt;I built the web application in Node.Js, using the markdown parser Marked, ACE editor, and the Github v3 API. I finished the first version of the application, worked through user-testing with students and instructors that will use the application, and deployed the applications to Startup Institute students and instructors accross the world.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 Jan 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/Project3.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/Project3.html</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+  </channel>
+</rss>
