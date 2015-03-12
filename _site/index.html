@@ -49,11 +49,20 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
 <div class="row">
   <div class="tile-bucket col-sm-12">
     
+    <a class="tile-link" href="Project13.html">
+      <span class="tile-container">
+        <img id="13-img" class="tile" src="">
+        <!-- <div id="13-text" class="color-filter tile-text"> 
+          <span class="tile-para"> Askii</span>
+        </div> -->
+      </span>
+    </a>
+    
     <a class="tile-link" href="Project12.html">
       <span class="tile-container">
         <img id="12-img" class="tile" src="">
         <!-- <div id="12-text" class="color-filter tile-text"> 
-          <span class="tile-para"> Making / Learning / Work</span>
+          <span class="tile-para"> Read Out Loud</span>
         </div> -->
       </span>
     </a>
@@ -164,7 +173,7 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
     </div>
     <div class="col-sm-3 hidden-xs sidebar">
 	<div class="contact-card">
-		<img src="/images/headshot.jpg" width="100%">
+		<img src="images/headshot.jpg" width="100%">
 		<br><br>
 		<span>
 			Twitter: <a href="http://twitter.com/juliananazare"> @JulianaNazare </a>
@@ -179,7 +188,9 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
 	<br>
 	<ul class="project-links">
 	
-	    <li class="project-link"><a class="post-link" href="Project12.html"> Making / Learning / Work</a></li>
+	    <li class="project-link"><a class="post-link" href="Project13.html"> Askii</a></li>
+	
+	    <li class="project-link"><a class="post-link" href="Project12.html"> Read Out Loud</a></li>
 	
 	    <li class="project-link"><a class="post-link" href="Project11.html"> How To Make (Almost) Anything</a></li>
 	
@@ -236,9 +247,30 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
 			}
 
 	    	
+	    		var proj_num = "13";
+	    		var proj_id = "#"+proj_num
+	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		console.log (proj_img_url);
+	    		var blank_img_url = "images/blank.jpg";
+				// $(proj_id+'-img').error(function(){
+				//     $(proj_id+'-img').attr("src", blank_img_url);
+				//   }).attr("src", proj_img_url);
+				if(urlExists(proj_img_url) == 200) {
+				    $(proj_id+'-img').attr("src", proj_img_url);
+				}
+				else {
+				    $(proj_id+'-img').attr("src", blank_img_url);
+				}
+	    		$(proj_id+'-img').width(200);
+	    		$(proj_id+'-img').height(150);
+		    	$(proj_id+'-text').hover(function(){
+			      $( this ).find( ".tile-para" ).toggle();
+			    });
+		    
 	    		var proj_num = "12";
 	    		var proj_id = "#"+proj_num
 	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		console.log (proj_img_url);
 	    		var blank_img_url = "images/blank.jpg";
 				// $(proj_id+'-img').error(function(){
 				//     $(proj_id+'-img').attr("src", blank_img_url);
@@ -258,6 +290,7 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
 	    		var proj_num = "11";
 	    		var proj_id = "#"+proj_num
 	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		console.log (proj_img_url);
 	    		var blank_img_url = "images/blank.jpg";
 				// $(proj_id+'-img').error(function(){
 				//     $(proj_id+'-img').attr("src", blank_img_url);
@@ -277,6 +310,7 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
 	    		var proj_num = "10";
 	    		var proj_id = "#"+proj_num
 	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		console.log (proj_img_url);
 	    		var blank_img_url = "images/blank.jpg";
 				// $(proj_id+'-img').error(function(){
 				//     $(proj_id+'-img').attr("src", blank_img_url);
@@ -296,6 +330,7 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
 	    		var proj_num = "9";
 	    		var proj_id = "#"+proj_num
 	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		console.log (proj_img_url);
 	    		var blank_img_url = "images/blank.jpg";
 				// $(proj_id+'-img').error(function(){
 				//     $(proj_id+'-img').attr("src", blank_img_url);
@@ -315,6 +350,7 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
 	    		var proj_num = "8";
 	    		var proj_id = "#"+proj_num
 	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		console.log (proj_img_url);
 	    		var blank_img_url = "images/blank.jpg";
 				// $(proj_id+'-img').error(function(){
 				//     $(proj_id+'-img').attr("src", blank_img_url);
@@ -334,6 +370,7 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
 	    		var proj_num = "7";
 	    		var proj_id = "#"+proj_num
 	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		console.log (proj_img_url);
 	    		var blank_img_url = "images/blank.jpg";
 				// $(proj_id+'-img').error(function(){
 				//     $(proj_id+'-img').attr("src", blank_img_url);
@@ -353,6 +390,7 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
 	    		var proj_num = "6";
 	    		var proj_id = "#"+proj_num
 	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		console.log (proj_img_url);
 	    		var blank_img_url = "images/blank.jpg";
 				// $(proj_id+'-img').error(function(){
 				//     $(proj_id+'-img').attr("src", blank_img_url);
@@ -372,6 +410,7 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
 	    		var proj_num = "5";
 	    		var proj_id = "#"+proj_num
 	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		console.log (proj_img_url);
 	    		var blank_img_url = "images/blank.jpg";
 				// $(proj_id+'-img').error(function(){
 				//     $(proj_id+'-img').attr("src", blank_img_url);
@@ -391,6 +430,7 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
 	    		var proj_num = "4";
 	    		var proj_id = "#"+proj_num
 	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		console.log (proj_img_url);
 	    		var blank_img_url = "images/blank.jpg";
 				// $(proj_id+'-img').error(function(){
 				//     $(proj_id+'-img').attr("src", blank_img_url);
@@ -410,6 +450,7 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
 	    		var proj_num = "3";
 	    		var proj_id = "#"+proj_num
 	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		console.log (proj_img_url);
 	    		var blank_img_url = "images/blank.jpg";
 				// $(proj_id+'-img').error(function(){
 				//     $(proj_id+'-img').attr("src", blank_img_url);
@@ -429,6 +470,7 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
 	    		var proj_num = "2";
 	    		var proj_id = "#"+proj_num
 	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		console.log (proj_img_url);
 	    		var blank_img_url = "images/blank.jpg";
 				// $(proj_id+'-img').error(function(){
 				//     $(proj_id+'-img').attr("src", blank_img_url);
@@ -448,6 +490,7 @@ I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelon
 	    		var proj_num = "1";
 	    		var proj_id = "#"+proj_num
 	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		console.log (proj_img_url);
 	    		var blank_img_url = "images/blank.jpg";
 				// $(proj_id+'-img').error(function(){
 				//     $(proj_id+'-img').attr("src", blank_img_url);

@@ -29,6 +29,7 @@
 	    		var proj_num = "{{ post.title | split:": " | first | split: " " | last }}";
 	    		var proj_id = "#"+proj_num
 	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		console.log (proj_img_url);
 	    		var blank_img_url = "images/blank.jpg";
 				// $(proj_id+'-img').error(function(){
 				//     $(proj_id+'-img').attr("src", blank_img_url);
