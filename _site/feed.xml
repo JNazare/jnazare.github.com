@@ -6,33 +6,30 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 11 Mar 2015 22:57:38 -0500</pubDate>
-    <lastBuildDate>Wed, 11 Mar 2015 22:57:38 -0500</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Wed, 08 Apr 2015 00:46:15 -0400</pubDate>
+    <lastBuildDate>Wed, 08 Apr 2015 00:46:15 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>13: Askii</title>
-        <description>&lt;p&gt;Askii is a SMS-based system that allows adult learners to study for a certification exam while on their commute. When a learner has a spare 5 minutes, they can simply text Askii to begin their customized lesson. Askii will respond with a customized set of questions and links to content that learners can study from on the go.&lt;/p&gt;
+        <description>&lt;p&gt;Askii is a combined mobile web page and SMS system that allows adult learners to study for a certification exam while on their commute. When a learner has a spare 5 minutes, they can simply text Askii to begin their customized lesson. Askii will respond with a customized set of questions and links to content that learners can study from on the go.&lt;/p&gt;
 
 &lt;center&gt;&lt;img src=&quot;images/projects/askii.jpg&quot; width=&quot;30%&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Askii is designed to incorporate study skills.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;It tracks the questions a learner struggles with, and presents them in a review if the learner has time.&lt;/li&gt;
-  &lt;li&gt;It presents questions upfront, then asks a learner to look through a few sentences of content for the answer.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;It tracks the questions a learner struggles with, and presents them in a review if the learner has time.
+It presents questions upfront, then asks a learner to look through a few sentences of content for the answer.
+As some adult learners do not have access to smart phones, Askii has been designed to be both smart phone and feature phone compatible. Any phone with access to basic Internet browsing will be able to use Askii.&lt;/p&gt;
 
-&lt;p&gt;As some adult learners do not have access to smart phones, Askii has been designed to be both smart phone and feature phone compatible. Any phone with access to basic Internet browsing will be able to use Askii.&lt;/p&gt;
-
-&lt;p&gt;The first prototype, focused on helping learners study for the US Naturalization Exam, was just completed in March 2015.&lt;/p&gt;
+&lt;p&gt;The first prototype was just completed in March 2015.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;For more information and updates, check out the project site: &lt;a href=&quot;http://learn.media.mit.edu/mlw&quot;&gt;http://learn.media.mit.edu/mlw&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;For more information and updates, check out the project site: &lt;a href=&quot;http://learn.media.mit.edu/mlw/askii&quot;&gt;http://learn.media.mit.edu/mlw/askii&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 04 Feb 2015 00:00:00 -0600</pubDate>
+        <pubDate>Wed, 04 Feb 2015 00:00:00 -0500</pubDate>
         <link>http://yourdomain.com/Project13.html</link>
         <guid isPermaLink="true">http://yourdomain.com/Project13.html</guid>
         
@@ -65,7 +62,7 @@
   &lt;li&gt;For more information and updates, check out the project site: &lt;a href=&quot;http://learn.media.mit.edu/mlw&quot;&gt;http://learn.media.mit.edu/mlw&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 03 Feb 2014 00:00:00 -0600</pubDate>
+        <pubDate>Mon, 03 Feb 2014 00:00:00 -0500</pubDate>
         <link>http://yourdomain.com/Project12.html</link>
         <guid isPermaLink="true">http://yourdomain.com/Project12.html</guid>
         
@@ -76,7 +73,7 @@
     
       <item>
         <title>11: How To Make (Almost) Anything</title>
-        <description>&lt;p&gt;A new project every week. Check out &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.14/people/juliana_nazare/index.html&quot;&gt;my “How To Make” page&lt;/a&gt; for more. &lt;/p&gt;
+        <description>&lt;p&gt;A new project every week. Check out &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.14/people/juliana_nazare/index.html&quot;&gt;my “How To Make” page&lt;/a&gt; for more.&lt;/p&gt;
 
 &lt;p&gt;For my final project, I decided to make a “phone-like” object that allows people to dial a number via Skype. The goal is to give this to my grandma as a holiday present, so that she can Skype with her brother in San Diego. Check out a video demo of the working phone:&lt;/p&gt;
 
@@ -94,7 +91,7 @@
 &lt;p&gt;Thanks to Bianca Datta help troubleshooting the Makerbot, Palash Nandy for help wiring up the Arduino Leonardo, and Felix Heibeck for his suggestion to use keystrokes and supplying the ATMEGA32U4 chip.&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 02 Feb 2014 00:00:00 -0600</pubDate>
+        <pubDate>Sun, 02 Feb 2014 00:00:00 -0500</pubDate>
         <link>http://yourdomain.com/Project11.html</link>
         <guid isPermaLink="true">http://yourdomain.com/Project11.html</guid>
         
@@ -118,7 +115,7 @@
 
 &lt;p&gt;Teammates: &lt;a href=&quot;http://twitter.com/timcameronryan&quot;&gt;Tim Ryan&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 01 Feb 2014 00:00:00 -0600</pubDate>
+        <pubDate>Sat, 01 Feb 2014 00:00:00 -0500</pubDate>
         <link>http://yourdomain.com/Project10.html</link>
         <guid isPermaLink="true">http://yourdomain.com/Project10.html</guid>
         
@@ -132,13 +129,13 @@
         <description>&lt;center&gt;&lt;img src=&quot;images/projects/inagural-speeches.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;I wanted to investigate if the lexicon of a president’s inaugural speech is related to president’s political party affiliation or the date of the speech. I used natural language processing and data visualization techniques to visualize the 700 top “buzzwords” in the inaugural speech corpus. I then used how often each president brought up these buzzwords in their speeches to create a graph of all the inaugural speeches. &lt;/p&gt;
+&lt;p&gt;I wanted to investigate if the lexicon of a president’s inaugural speech is related to president’s political party affiliation or the date of the speech. I used natural language processing and data visualization techniques to visualize the 700 top “buzzwords” in the inaugural speech corpus. I then used how often each president brought up these buzzwords in their speeches to create a graph of all the inaugural speeches.&lt;/p&gt;
 
-&lt;p&gt;I compared these graphs to the data on when the speech was given and the political party that the speaker was affiliated with. I found that the buzzwords used in a given inaugural speech closely align with the date of the speech. For example, buzzwords like “militia” and “tariff” are commonplace for our founding fathers to use, while words such as “communism” and “Cuba” are buzzwords relating to 20th century politics. &lt;/p&gt;
+&lt;p&gt;I compared these graphs to the data on when the speech was given and the political party that the speaker was affiliated with. I found that the buzzwords used in a given inaugural speech closely align with the date of the speech. For example, buzzwords like “militia” and “tariff” are commonplace for our founding fathers to use, while words such as “communism” and “Cuba” are buzzwords relating to 20th century politics.&lt;/p&gt;
 
 &lt;p&gt;The buzzwords I found encapsulate both words relevant to current events, such as “Cuba” and “Communism,” and also variations in the English language, such as the previously popular word “whilst”. It remains to be investigated if the inaugural speeches can be better differentiated based on words pertaining to current events or words based on the evolution of American English. This is something that I would like to look into, creating a more intuitive and interactive visualization of the inaugural speeches.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 09 Jan 2014 00:00:00 -0600</pubDate>
+        <pubDate>Thu, 09 Jan 2014 00:00:00 -0500</pubDate>
         <link>http://yourdomain.com/Project9.html</link>
         <guid isPermaLink="true">http://yourdomain.com/Project9.html</guid>
         
@@ -158,7 +155,7 @@
 
 &lt;p&gt;Teammates: Charlie Behling, Carl Bailey, Matt Reiley&lt;/p&gt;
 </description>
-        <pubDate>Wed, 08 Jan 2014 00:00:00 -0600</pubDate>
+        <pubDate>Wed, 08 Jan 2014 00:00:00 -0500</pubDate>
         <link>http://yourdomain.com/Project8.html</link>
         <guid isPermaLink="true">http://yourdomain.com/Project8.html</guid>
         
@@ -180,7 +177,7 @@
 
 &lt;p&gt;Teammates: &lt;a href=&quot;http://twitter/com/reyner&quot;&gt;Reyner Crosby&lt;/a&gt; and &lt;a href=&quot;http://twitter/com/amankapur91&quot;&gt;Aman Kapur&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 07 Jan 2014 00:00:00 -0600</pubDate>
+        <pubDate>Tue, 07 Jan 2014 00:00:00 -0500</pubDate>
         <link>http://yourdomain.com/Project7.html</link>
         <guid isPermaLink="true">http://yourdomain.com/Project7.html</guid>
         
@@ -199,7 +196,7 @@
 
 &lt;center&gt;&lt;img src=&quot;images/projects/thankateacherposter.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
 </description>
-        <pubDate>Mon, 06 Jan 2014 00:00:00 -0600</pubDate>
+        <pubDate>Mon, 06 Jan 2014 00:00:00 -0500</pubDate>
         <link>http://yourdomain.com/Project6.html</link>
         <guid isPermaLink="true">http://yourdomain.com/Project6.html</guid>
         
@@ -217,7 +214,7 @@
 
 &lt;p&gt;Teammates: Arjun Aletty, Eerik Helmick, Chris Mark&lt;/p&gt;
 </description>
-        <pubDate>Sun, 05 Jan 2014 00:00:00 -0600</pubDate>
+        <pubDate>Sun, 05 Jan 2014 00:00:00 -0500</pubDate>
         <link>http://yourdomain.com/Project5.html</link>
         <guid isPermaLink="true">http://yourdomain.com/Project5.html</guid>
         
@@ -229,7 +226,7 @@
       <item>
         <title>4: Spatial Music Map - A way to explore your music spatially</title>
         <description>&lt;center&gt;&lt;img src=&quot;images/projects/musicmap.jpg&quot; width=&quot;70%&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;We spent 24 hours (straight) creating a way for users to spatially create radio stations, a method of music discovery not currently employed by popular music streamers such as Rdio and Spotify. This project was my first introduction to Node.Js as well as to using big web APIs such as the EchoNest API and Rdio player.&lt;/p&gt;
 
@@ -240,7 +237,7 @@
 
 &lt;p&gt;Teammates: &lt;a href=&quot;http://twitter.com/bobbins&quot;&gt;Rachel Bobbins&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/geoffpleiss&quot;&gt;Geoff Pleiss&lt;/a&gt;, and &lt;a href=&quot;http://twitter.com/timcameronryan&quot;&gt;Tim Ryan&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 04 Jan 2014 00:00:00 -0600</pubDate>
+        <pubDate>Sat, 04 Jan 2014 00:00:00 -0500</pubDate>
         <link>http://yourdomain.com/Project4.html</link>
         <guid isPermaLink="true">http://yourdomain.com/Project4.html</guid>
         
