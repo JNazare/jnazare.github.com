@@ -41,7 +41,7 @@
     <div class="col-sm-9 content">
       <h3> About </h3>
 <p> 
-I am grad student in the MIT Media Lab's <a href="http://media.mit.edu/">Lifelong Kindergarten Group</a> and an alum of <a href="http://olin.edu">Olin College of Engineering</a>, where I studied electrical and computer engineering. Before coming to the Media Lab, I worked part-time at MIT Lincoln Labs in the <a href="http://www.ll.mit.edu/mission/cybersec/HLT/HLT.html">Human Language Technology Group</a> and was a Technical Associate at <a href="http://startupinstitute.com">Startup Institute Boston</a>.
+I am masters student in the MIT Media Lab's <a href="http://llk.media.mit.edu/">Lifelong Kindergarten Group</a> and an alum of <a href="http://olin.edu">Olin College of Engineering</a>, where I studied electrical and computer engineering. Before coming to the Media Lab, I worked part-time at MIT Lincoln Labs in the <a href="http://www.ll.mit.edu/mission/cybersec/HLT/HLT.html">Human Language Technology Group</a> and was a Technical Associate at <a href="http://startupinstitute.com">Startup Institute Boston</a>.
 <br><br>
 I am interested in using computer science to build educational experiences that help people learn about themselves, their communities, and the world around them.
 </p>
@@ -50,7 +50,7 @@ I am interested in using computer science to build educational experiences that 
 <h3> Selected Projects</h3>
 <div class="row">
   <div class="tile-bucket col-sm-12">
-    <a class="tile-link" href="http://learn.media.mit.edu/mlw">
+    <!-- <a class="tile-link" href="http://learn.media.mit.edu/mlw">
       <span class="tile-container">
         <img id="12-img" class="tile" src="">
       </span>
@@ -58,6 +58,18 @@ I am interested in using computer science to build educational experiences that 
     <a class="tile-link" href="http://certs.media.mit.edu">
       <span class="tile-container">
         <img id="13-img" class="tile" src="">
+      </span>
+    </a> -->
+    
+    <a class="tile-link" href="Project13.html">
+      <span class="tile-container">
+        <img id="13-img" class="tile" src="">
+      </span>
+    </a>
+    
+    <a class="tile-link" href="Project12.html">
+      <span class="tile-container">
+        <img id="12-img" class="tile" src="">
       </span>
     </a>
     
@@ -139,8 +151,12 @@ I am interested in using computer science to build educational experiences that 
 	</div>
 	<br>
 	<ul class="project-links">
-		<li class="project-link"><a class="post-link" href="http://learn.media.mit.edu/mlw">Making Learning Work</a></li>
-		<li class="project-link"><a class="post-link" href="http://certs.media.mit.edu">Blockchain-Verifiable Certificates</a></li>
+		<!-- <li class="project-link"><a class="post-link" href="http://learn.media.mit.edu/mlw">Making Learning Work</a></li>
+		<li class="project-link"><a class="post-link" href="http://certs.media.mit.edu">Blockchain-Verifiable Certificates</a></li> -->
+	
+	    <li class="project-link"><a class="post-link" href="Project13.html"> Read Out Loud</a></li>
+	
+	    <li class="project-link"><a class="post-link" href="Project12.html"> Digitally-Verifiable Certificates</a></li>
 	
 	    <li class="project-link"><a class="post-link" href="Project11.html"> How To Make (Almost) Anything</a></li>
 	
@@ -217,6 +233,44 @@ I am interested in using computer science to build educational experiences that 
 			    });
 			}
 	    	
+	    		var proj_num = "13";
+	    		var proj_id = "#"+proj_num
+	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		var blank_img_url = "images/blank.jpg";
+				// $(proj_id+'-img').error(function(){
+				//     $(proj_id+'-img').attr("src", blank_img_url);
+				//   }).attr("src", proj_img_url);
+				if(urlExists(proj_img_url) == 200) {
+				    $(proj_id+'-img').attr("src", proj_img_url);
+				}
+				else {
+				    $(proj_id+'-img').attr("src", blank_img_url);
+				}
+	    		$(proj_id+'-img').width(200);
+	    		$(proj_id+'-img').height(150);
+		    	$(proj_id+'-text').hover(function(){
+			      $( this ).find( ".tile-para" ).toggle();
+			    });
+		    
+	    		var proj_num = "12";
+	    		var proj_id = "#"+proj_num
+	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";
+	    		var blank_img_url = "images/blank.jpg";
+				// $(proj_id+'-img').error(function(){
+				//     $(proj_id+'-img').attr("src", blank_img_url);
+				//   }).attr("src", proj_img_url);
+				if(urlExists(proj_img_url) == 200) {
+				    $(proj_id+'-img').attr("src", proj_img_url);
+				}
+				else {
+				    $(proj_id+'-img').attr("src", blank_img_url);
+				}
+	    		$(proj_id+'-img').width(200);
+	    		$(proj_id+'-img').height(150);
+		    	$(proj_id+'-text').hover(function(){
+			      $( this ).find( ".tile-para" ).toggle();
+			    });
+		    
 	    		var proj_num = "11";
 	    		var proj_id = "#"+proj_num
 	    		var proj_img_url = "images/thumbnails/" + proj_num + ".jpg";

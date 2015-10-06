@@ -12,8 +12,8 @@
 	</div>
 	<br>
 	<ul class="project-links">
-		<li class="project-link"><a class="post-link" href="http://learn.media.mit.edu/mlw">Making Learning Work</a></li>
-		<li class="project-link"><a class="post-link" href="http://certs.media.mit.edu">Blockchain-Verifiable Certificates</a></li>
+		<!-- <li class="project-link"><a class="post-link" href="http://learn.media.mit.edu/mlw">Making Learning Work</a></li>
+		<li class="project-link"><a class="post-link" href="http://certs.media.mit.edu">Blockchain-Verifiable Certificates</a></li> -->
 	{% for post in site.posts %}
 	    <li class="project-link"><a class="post-link" href="{{ post.url | remove_first: "/" }}">{{ post.title | split:":" | last | split: " - " | first}}</a></li>
 	{% endfor %}
