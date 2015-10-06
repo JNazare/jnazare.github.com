@@ -180,3 +180,7 @@ ul{
 ul li{
   font-weight: bold;
 }
+
+.tile-container.caption{
+  text-align: left;
+}
