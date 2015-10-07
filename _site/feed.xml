@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 06 Oct 2015 19:55:33 -0400</pubDate>
-    <lastBuildDate>Tue, 06 Oct 2015 19:55:33 -0400</lastBuildDate>
+    <pubDate>Tue, 06 Oct 2015 20:50:46 -0400</pubDate>
+    <lastBuildDate>Tue, 06 Oct 2015 20:50:46 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -47,7 +47,7 @@ Below is footage from the first round of user testing with the Harborside Family
     
       <item>
         <title>12: Digitally-Verifiable Certificates</title>
-        <description>&lt;p&gt;I am currently working with &lt;a href=&quot;https://twitter.com/schmidtphi&quot;&gt;Philipp Schmidt&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/kamcconachie&quot;&gt;Katherine McConachie&lt;/a&gt; on developing digitally-verifiable certificates using the blockchain.&lt;/p&gt;
+        <description>&lt;p&gt;I am currently working with &lt;a href=&quot;https://twitter.com/schmidtphi&quot;&gt;Philipp Schmidt&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/kamcconachie&quot;&gt;Katherine McConachie&lt;/a&gt; to create digital certificates that are registered and verified through the blockchain.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Much more about this project can be found on the project site, &lt;a href=&quot;http://certs.media.mit.edu&quot;&gt;http://certs.media.mit.edu&lt;/a&gt;&lt;/li&gt;
