@@ -72,7 +72,7 @@ ul > li:before {
   text-indent: -5px;
 }
 
-span.mdl-layout-title {
+div.mdl-layout-title {
 	font-weight: bold;
 	font-family: Neue Haas Grotesk Bold, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
@@ -112,8 +112,10 @@ a.social-link{
 	text-decoration: none;
 }
 
-span.social-icons{
-	float:right;
+div.social-icons{
+	/*float:right;*/
+	margin-top: 20px;
+	margin-left: 25px;
 }
 
 /*.mdl-tabs__tab .mdl-tabs__ripple-container .mdl-ripple{
@@ -148,7 +150,7 @@ img.headshot{
 }
 
 
-span.top-border{
+div.top-border{
 	margin-top: 40px;
 }
 
