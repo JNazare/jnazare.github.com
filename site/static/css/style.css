@@ -175,8 +175,9 @@ div.footnote{
 
 .project-card-image.mdl-card {
   width: 100%;
-  border: 1px solid #000;
+  /*border: dotted 1px;*/
   box-shadow: none;
+  border-radius: none;
 }
 
 .project-card-image > .mdl-card__actions {
