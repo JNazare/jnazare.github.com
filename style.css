@@ -24,6 +24,13 @@ a {
 }
 
 
+.resume-btn,
+.resume-btn:hover,
+.resume-btn:focus {
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+
 /*
  * Base structure
  */
