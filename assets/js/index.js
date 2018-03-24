@@ -8,10 +8,10 @@ $(function(){
         var scroll = $(window).scrollTop(); // how many pixels you've scrolled
         var os = $('.first-row').offset().top; // pixels to the top of first-row
         if(scroll > os){
-            $(".nav").addClass("bottom-nav-border");
+            $(".custom-navbar").addClass("bottom-nav-border");
         }
         else if (scroll < os){
-        	$(".nav").removeClass("bottom-nav-border");
+        	$(".custom-navbar").removeClass("bottom-nav-border");
         }
     });
 });
